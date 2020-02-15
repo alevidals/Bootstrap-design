@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.body-color {
+    background-color: #ebeced;
+}
+
+.article-info {
+    height: 3.8rem;
+}
+
+h5::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 2px;
+    background: #ff6000;
+    margin: .74rem 0 0;
+}
